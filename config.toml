@@ -80,22 +80,22 @@ enableRobotsTXT = true
 [[menu.main]]
   weight = 5
   identifier = "statement-of-faith"
-  name = "Statement of Faith"
+  name = "Faith"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-pagelines\"></i>"
   url = "/pages/statement-of-faith/"
 
-[[menu.links]]
-  weight = 0
-  identifier = "github"
-  name = "GitHub"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
-  url = "https://github.com/kakawait"
-[[menu.links]]
-  weight = 1
-  identifier = "stackoverflow"
-  name = "Stack Overflow"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
-  url = "https://stackoverflow.com/users/636472/kakawait"
+#[[menu.links]]
+#  weight = 0
+#  identifier = "github"
+#  name = "GitHub"
+#  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
+#  url = "https://github.com/kakawait"
+#[[menu.links]]
+#  weight = 1
+#  identifier = "stackoverflow"
+#  name = "Stack Overflow"
+#  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
+#  url = "https://stackoverflow.com/users/636472/kakawait"
 
 [[menu.misc]]
   weight = 0
@@ -121,7 +121,7 @@ enableRobotsTXT = true
   # If false it will flat categories.
   hierarchicalCategories = true
 
-  description = "Hugo tranquilpeak theme demo"
+  description = "Compassionate Christian Singles Fellowship"
 
   # Customization
   # Define the behavior of the sidebar
