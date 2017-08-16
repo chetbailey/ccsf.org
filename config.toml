@@ -21,6 +21,7 @@ disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
 paginate = 7
 canonifyurls = true
+enableRobotsTXT = true
 
 [permalinks]
   post = "/:year/:month/:slug/"
@@ -32,7 +33,7 @@ canonifyurls = true
 
 [author]
   name = "Compassionate Christian Singles Fellowship"
-  bio = "We are a bunch of really super **COOL** people"
+  bio = "When you did it for the least of these my brothers, you did it for me.--Matthew 25:40"
   #job = "Your job title"
   location = "Colorado Springs"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
@@ -75,7 +76,13 @@ canonifyurls = true
   identifier = "about"
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
-  url = "/#about"
+  url = "/pages/about/"
+[[menu.main]]
+  weight = 5
+  identifier = "statement-of-faith"
+  name = "Statement of Faith"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-pagelines\"></i>"
+  url = "/pages/statement-of-faith/"
 
 [[menu.links]]
   weight = 0
