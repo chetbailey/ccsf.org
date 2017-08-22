@@ -33,7 +33,7 @@ enableRobotsTXT = true
 
 [author]
   name = "Compassionate Christian Singles Fellowship"
-  bio = "When you did it for the least of these my brothers, you did it for me.--Matthew 25:40"
+  bio = "When you did it for the least of these my brothers, you did it for me.  \n_--Matthew 25:40_"
   #job = "Your job title"
   location = "Colorado Springs"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
@@ -99,6 +99,12 @@ enableRobotsTXT = true
 #  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
 #  url = "https://stackoverflow.com/users/636472/kakawait"
 
+[[menu.misc]]
+  weight = 1
+  identifier = "email"
+  name = "Email"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-envelope\"></i>"
+  url = "mailto:illbewithyoualways@compassionatechristiansinglesfellowship.org"
 [[menu.misc]]
   weight = 0
   identifier = "rss"
@@ -184,11 +190,11 @@ enableRobotsTXT = true
   [params.header.rightLink]
     class = ""
     icon = ""
-    url = "/#about"
+    url = "/"
 
   # Customize link of author avatar in sidebar
-  # [params.sidebar.profile]
-  #   url = "/#about"
+  [params.sidebar.profile]
+     url = "/"
 
   # Customize copyright value "© 2016 <CUSTOMIZATION>. All Rights Reserved"
   # [params.footer]
