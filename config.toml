@@ -37,10 +37,12 @@ enableRobotsTXT = true
   #job = "Your job title"
   location = "Colorado Springs"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  gravatarEmail = "chet@dcbcrafts.com"
+  #gravatarEmail = "chet@dcbcrafts.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
+  #picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
+  #picture = "https://cdn0.iconfinder.com/data/icons/very-basic-android-l-lollipop-icon-pack/24/link-128.png"
+  picture = "media/if_link_309055.png"
   # Your Twitter username without the @. E.g : thibaudlepretre
   # twitter = "thibaudlepretre"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
@@ -173,7 +175,7 @@ enableRobotsTXT = true
 
   # Custom CSS. Put here your custom CSS files. They are loaded after the theme CSS;
   # they have to be referred from static root. Example
-  # customCSS = ["css/foo.css"]
+  customCSS = ["css/custom.css"]
 
   # Custom JS. Put here your custom JS files. They are loaded after the theme JS;
   # they have to be referred from static root. Example

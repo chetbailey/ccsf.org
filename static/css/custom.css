@@ -1,0 +1,15 @@
+#sidebar .sidebar-profile .sidebar-profile-name {
+		color: #3b3b3b;
+}
+
+#sidebar[data-behavior="1"] .sidebar-profile .sidebar-profile-bio {
+		color: #3b3b3b;
+}
+
+#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link:active, #sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link:hover {
+		color: #ebebeb;
+}
+
+#sidebar ul.sidebar-buttons li.sidebar-button .sidebar-button-link {
+		color: #000000;
+}
