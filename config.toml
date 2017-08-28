@@ -55,18 +55,18 @@ enableRobotsTXT = true
 #  name = "Home"
 #  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
 #  url = "/"
-[[menu.main]]
-  weight = 1
-  identifier = "categories"
-  name = "Categories"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
-  url = "/categories"
-[[menu.main]]
-  weight = 2
-  identifier = "tags"
-  name = "Tags"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
-  url = "/tags"
+#[[menu.main]]
+#  weight = 1
+#  identifier = "categories"
+#  name = "Categories"
+#  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
+#  url = "/categories"
+#[[menu.main]]
+#  weight = 2
+#  identifier = "tags"
+#  name = "Tags"
+#  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
+#  url = "/tags"
 [[menu.main]]
   weight = 3
   identifier = "archives"
@@ -85,6 +85,12 @@ enableRobotsTXT = true
   name = "Faith"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-pagelines\"></i>"
   url = "/pages/statement-of-faith/"
+[[menu.main]]
+  weight = 5
+  identifier = "mission"
+  name = "Mission"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-camera\"></i>"
+  url = "/2017/08/vision-and-mission/"
 
 #[[menu.links]]
 #  weight = 0
